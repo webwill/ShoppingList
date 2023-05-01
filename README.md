@@ -3,7 +3,7 @@
 
 ### Discounts available 
 <ul>
-    <li>Buy two soups and get 50% a loaf of bread</li>
+    <li>Buy two soups and get 50% off a loaf of bread</li>
     <li>10% off apples</li>
 </ul>
 

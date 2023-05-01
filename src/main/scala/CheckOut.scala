@@ -22,7 +22,7 @@ object CheckOut {
        if (items.getOrElse(soupName,BigDecimal(0.0)) >= priceMap(soupName)* BigDecimal(2) && items.getOrElse(breadName,BigDecimal(0.0)) != BigDecimal(0.0)) {
          discountMessage = discountMessage  +"\nBought two soup get 50% off a loaf of bread"
 
-         items.updated(breadName,items.get(breadName).get)
+         items.updated(breadName, items.get(breadName).get - (priceMap(breadName)/2))
 
        } else items
      }
